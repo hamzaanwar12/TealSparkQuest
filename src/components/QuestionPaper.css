@@ -38,13 +38,14 @@
     width: 100%;
   }
   
-  th,td
+  table,tr,th,td
   {
 
     border: 1px solid #343a45;
     border-top: 0px;
     border-collapse: collapse;
   }
+
   th{
     border-left: 0px;
   }

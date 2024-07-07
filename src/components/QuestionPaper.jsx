@@ -62,19 +62,19 @@ const QuestionPaper = () => {
           <div className="question-paper">
             <table className="w-full border-collapse">
               <tbody>
-                <tr className="border-[#343a45]">
+                <tr className="">
                   <th className="p-[10px] text-[14px] font-bold">Institute</th>
                   <td className="p-[10px] text-[14px]">{institute}</td>
                 </tr>
-                <tr className="border-[#343a45]">
+                <tr className="">
                   <th className="p-[10px] text-[14px] font-bold">Grade</th>
                   <td className="p-[10px] text-[14px]">{`${year}th Class`}</td>
                 </tr>
-                <tr className="border-[#343a45]">
+                <tr className="">
                   <th className="p-[10px] text-[14px] font-bold">Subject</th>
                   <td className="p-[10px] text-[14px]">{subject}</td>
                 </tr>
-                <tr className="border-[#343a45]">
+                <tr className="">
                   <th className="p-[10px] text-[14px] font-bold">Year</th>
                   <td className="p-[10px] text-[14px]">{yearFromBISE}</td>
                 </tr>
